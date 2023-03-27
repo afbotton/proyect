@@ -59,6 +59,7 @@ nav{
     margin: 70px 0;
     transition: all .5s;
     font-family: Arial;
+    text-decoration: none;
 
 }
 
@@ -72,6 +73,7 @@ padding: 10px  30px;
 background-color: rgb(117, 26, 26);
 color: #fff;
 border-radius: 20px;
+text-decoration: none;
 
 } 
 .nav-menu li a.active , .nav-menu li a:hover{
@@ -81,6 +83,7 @@ border-radius: 20px;
     background-color: rgb(0, 0, 0);
     color: #fff;
     border-radius: 20px;
+    text-decoration: none;
 }
 
 #check{
@@ -159,7 +162,7 @@ transition: 0.5s;
     .nav-menu{
         position: relative;
         height: 100px;
-        top: 0%;
+        top: 7%;
         background: none;
         transition: none;
         text-align: center;

@@ -24,7 +24,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     background:linear-gradient(70deg,black,white);
-   
+   text-decoration: none;
    
 
 }
@@ -52,7 +52,7 @@ nav{
    background: rgba(0, 0, 0, .95 );
     text-align: center;
     transition: all .5s;
-
+    text-decoration: none;
    
 }
 
@@ -62,7 +62,7 @@ nav{
     margin: 70px 0;
     transition: all .5s;
     font-family: Arial;
-
+    text-decoration: none;
 }
 
 .nav-menu li a{
@@ -75,6 +75,7 @@ padding: 10px  30px;
 background-color: rgb(117, 26, 26);
 color: #fff;
 border-radius: 20px;
+text-decoration: none;
 
 } 
 .nav-menu li a.active , .nav-menu li a:hover{
@@ -84,6 +85,7 @@ border-radius: 20px;
     background-color: rgb(0, 0, 0);
     color: #fff;
     border-radius: 20px;
+    text-decoration: none;
 }
 
 #check{
@@ -162,7 +164,7 @@ transition: 0.5s;
     .nav-menu{
         position: relative;
         height: 100px;
-        top: 0%;
+        top: 7%;
         background: none;
         transition: none;
         text-align: center;
@@ -792,13 +794,60 @@ transition: 0.5s;
 .encuesta{
     margin-right: 40px;
     padding: 10px  30px;
-    background-color: rgb(146, 20, 20);
-    color: rgb(250, 250, 250);
-    border-radius: 15px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
     text-decoration: none;
  
 }
 .encuesta{
     color: #ffff;
+}
+.contact-info h3,
+.contact-info ul,
+.contact-info p {
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+     
+}
+
+.contact-info ul{
+
+padding: 0%;
+display: block;
+text-decoration: none;
+justify-content: flex-start;
+align-items: flex-start;
+flex-direction: column;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.contact-info ul li{
+    padding: .3em;
+    text-decoration: none;
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+
+
+.contact-info h3,
+.contact-info ul,
+.contact-info p {
+    
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
